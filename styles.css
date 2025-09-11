@@ -1,0 +1,151 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    outline-style: dotted;
+    outline-color: red;
+    outline-offset: -1px;
+} /*kanter på elementer til visualisere design*/
+
+html {
+
+
+    scroll-behavior: smooth;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkolivegreen;
+    color: white;
+
+}
+
+header h1 {
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: darkolivegreen;
+    padding: 10px;
+
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.forside {
+    max-width: 5000px;
+    height: 1000px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 1px;
+    background: url("b2.JPG") center/cover no-repeat;
+    color: white;
+    font-size: 50px;
+
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    align-items: center;
+    gap: 80px;
+
+    margin: 100px auto;
+    text-align: center;
+
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 70%;
+
+
+    }
+}
+
+#pb {
+
+    max-width: 50%;;
+
+
+}
+
+.forside h1 {
+
+    margin-top: 250px;
+}
+
+.knap {
+    background-color: darkolivegreen;
+    color: wheat;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    outline: none;
+    line-height: 1;
+    border-radius: 20px;
+}
+ 
+  #projekter h2{
+      display: flex;
+      justify-content: center;
+
+
+  }
+
+
+
+
+
+
+#projekter {
+    list-style: none;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 2100px;
+    margin: 300px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.liste_2{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+gap: 100px;
+}
+
+#projekter ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
