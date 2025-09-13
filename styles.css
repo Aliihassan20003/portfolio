@@ -106,12 +106,12 @@ header a {
     border-radius: 20px;
 }
  
-  #projekter h2{
-      display: flex;
-      justify-content: center;
+#projekter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-  }
 
 
 
@@ -128,6 +128,7 @@ header a {
     flex-direction: column;
     gap: 60px;
 
+
 }
 .liste_2{
     align-items: center;
@@ -141,11 +142,23 @@ gap: 100px;
 }
 
 
+.liste_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
 
+body{ background-color: cornsilk;
+
+}
 
 
+.liste_2 ul{
+    background-color: white;
+    border-radius: inherit;
+}
 
-
-
-
+.some{
+    background-color: white;
+}
