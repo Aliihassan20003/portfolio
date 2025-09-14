@@ -62,7 +62,7 @@ header a {
 
 }
 
-.box1{
+#box1{
     display: flex;
     justify-content: center;
     max-width: 1000px;
