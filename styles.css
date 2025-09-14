@@ -186,3 +186,43 @@ body{ background-color: cornsilk;
     margin: 0 auto;
     border-radius: 6px;
 }
+.cowi{
+    background-color: white;
+}
+
+.skoler_evnets{
+    background-color: white;
+}
+
+#kompetencer {
+max-width: 1000px;
+
+    margin:  40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#kompetencer ul h3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.kombox{
+    display: flex;
+    justify-content: center;
+}
+.h2kom{
+    display: flex;
+    justify-content: center;
+}
+.pro{
+    list-style: none;
+    justify-content: center;
+    background-color: white;
+   border-radius: 20px;
+}
+ul{
+    list-style: none;
+}
