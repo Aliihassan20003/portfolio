@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-*{
+/*{
     outline-style: dotted;
     outline-color: red;
     outline-offset: -1px;
@@ -159,6 +159,18 @@ body{ background-color: cornsilk;
     border-radius: inherit;
 }
 
-.some{
+
+
+.some {
     background-color: white;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+#esuperliga {
+    max-width: 100%;         /* billedet fylder kun sin kolonne */
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
 }
