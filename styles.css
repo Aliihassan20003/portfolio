@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*{
+    /*{
     outline-style: dotted;
     outline-color: red;
     outline-offset: -1px;
@@ -222,7 +222,79 @@ max-width: 1000px;
     justify-content: center;
     background-color: white;
    border-radius: 20px;
+    text-align: center;
+
 }
 ul{
     list-style: none;
 }
+.databaser {
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+.Fotografering{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+
+}
+#kompetencer{
+    margin-bottom:30%;
+}
+
+    #kontakt {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     gap: 70px;
+     margin: 40px auto;
+ }
+
+
+#kontakt a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none black;
+    color: darkolivegreen;
+    background-color: cornsilk;
+
+}
+
+footer{
+    display: flex;
+    color: black;
+    background-color: darkolivegreen;}
+
+
+
+
+
+
+
+.email img{
+    width: 80px;
+}
+
+
+.tel, .email {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 30px;
+    background-color: cornsilk;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.tel img,
+.email img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
